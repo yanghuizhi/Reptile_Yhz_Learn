@@ -20,7 +20,7 @@ print(type(r1.text))  # 返回 str 类型
 print(type(r2.json))  # 返回 method 类型
 
 # 打印数据并解决乱码问题————————————————————————————
-print(r1.text)  # 打印网页信息出来,可能会出现乱码,怎么办？
+print(r1.text)  # 打印网页信息,可能会出现乱码,怎么办？
 print(r1.encoding)  # 返回当前编码格式
 r1.encoding = 'utf-8'  # 转换编码
 print(r1.text)  # 再次打印
