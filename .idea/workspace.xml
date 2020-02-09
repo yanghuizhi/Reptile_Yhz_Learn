@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e43bd9f-5866-4bfa-b2fe-2b6fc58d2917" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simplify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simplify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Learn1.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Learn1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/function_Yhz.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/function_Yhz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/headers_Yhz.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/headers_Yhz.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/Simplify.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -159,9 +152,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="225" />
     <option name="y" value="26" />
-    <option name="width" value="1492" />
+    <option name="width" value="1388" />
     <option name="height" value="801" />
   </component>
   <component name="ProjectView">
@@ -342,17 +334,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.1实例_安居客房价收集" />
-      <item itemvalue="Python.1实例_爬取京东手机评论并保存" />
-      <item itemvalue="Python.1实例_爬取今日头条街拍美图并保存" />
-      <item itemvalue="Python.1实例_爬取猫眼电影西红柿首富评论" />
       <item itemvalue="Python.图片下载通用代码段" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.图片下载通用代码段" />
-        <item itemvalue="Python.1实例_爬取猫眼电影西红柿首富评论" />
-        <item itemvalue="Python.1实例_爬取今日头条街拍美图并保存" />
-        <item itemvalue="Python.1实例_爬取京东手机评论并保存" />
         <item itemvalue="Python.1实例_安居客房价收集" />
       </list>
     </recent_temporary>
@@ -368,10 +354,18 @@
       <option name="presentableId" value="Default" />
       <updated>1580541150905</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1580631785638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580631785638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="26" width="1492" height="801" extended-state="0" />
+    <frame x="160" y="26" width="1492" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -380,8 +374,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.2613803" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.38179147" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24068965" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38179147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24068965" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -403,6 +397,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Requests_yhz/实例6（3）—制作词云图.py">
@@ -694,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simplify.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/下载图片.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -708,10 +699,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Simplify.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Simplify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
