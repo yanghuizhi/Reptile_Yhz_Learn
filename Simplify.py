@@ -4,7 +4,7 @@
 # Time: 2020/2/1 3:25 PM
 
 
-import os, click, time
+import os, click
 
 
 @click.command()

@@ -1,14 +1,11 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-    请求头
-"""
-
 from random import choice
 
+#     请求头, 为了以后便捷方法
 
-class Config(object):
+class Headers(object):
     # 防止ip被封，用的数据
     UserAgent_List = [
         "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",

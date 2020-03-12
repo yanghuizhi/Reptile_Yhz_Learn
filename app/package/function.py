@@ -2,15 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import os
-import sys
-
 import requests
 import json
+import datetime
+from app.config import Config_s as cf
+from app.api.path_func import is_path  # 路径判断
 
 
 # 封装好函数，只需要传入url即可
-# post 请求
-
 
 def Post_Request(url, headers, data=None, verify=False):
     response = requests.post(url=url, headers=headers, data=data, verify=verify)
@@ -30,7 +29,7 @@ def Post_Request(url, headers, data=None, verify=False):
     return None
 
 
-def Get_Request(url, headers, data):
+def Get_Request1(url, headers, data):
     response = requests.get(url=url, headers=headers, data=data, verify=False).json()
 
     if response.status_code == 200:
@@ -39,6 +38,7 @@ def Get_Request(url, headers, data):
         print('请求失败,状态码为{response.status_code}')
 
     return None
+
 
 def Get_Request2(url, headers, data):
     response = requests.get(url=url, headers=headers, data=data, verify=False).content
@@ -50,45 +50,29 @@ def Get_Request2(url, headers, data):
 
     return None
 
-def save_to_img(url, file_name):
-    # 保存图片
-    _path = os.path.dirname(os.path.dirname(__file__)) + '/Text'  # 根目录
-    _data = _path + '/' + file_name +'.jpeg'
 
-    if not os.path.exists(_path):  # 不存在则创建
-        os.mkdir(_path)
+def save_to_typt(url, type, *args):
+    # 保存方法 txt、img
+    is_path(cf.LOGS_PATH)
 
-    with open(_data, 'wb') as f:
-        f.write(requests.get(url).content)
+    if type == 1:
+        response = requests.get(url, stream=True).content
+        _data = cf.FILE_PATH + '.txt'
+        with open(_data, 'a') as f:
+            f.write(response.decode('utf-8') + '\n')
 
+    elif type == 2:
+        _data = cf.FILE_PATH + '.jpeg'
+        with open(_data, 'wb') as f:
+            f.write(requests.get(url).content)
 
-def save_to_html(url,file_name):
-    """
-    保存html
-    :param url: url
-    :param file_name: filen_name
-    :return:
-    """
-    _path = os.path.dirname(os.path.dirname(__file__)) + '/Text'  # 根目录
-    _data = _path + '/' + file_name+'.txt'
+    elif type == 3:
+        _data = cf.FILE_PATH + '.jpg'
+        with open(*args, mode='wb') as f:
+            f.write(url)
 
-    if not os.path.exists(_path):  # 不存在则创建
-        os.mkdir(_path)
-
-    response = requests.get(url, stream=True).content
-
-    with open(_data, 'a') as f:
-        f.write(response.decode('utf-8') + '\n')
-
-
-# 写入文件，指定ensure_ascii参数为False，这样可以保证输出结果是中文形式而不是Unicode编码。
-# content 此时就是一个字典
-def save_to_text(file,response):
-    file_path = f'{file}.img'
-    with open(file_path, 'a', encoding='utf-8') as f:
-        # json.dumps ,将字典转化成字符串
-        f.write(json.dumps(response, ensure_ascii=False) + '\n')
-
+    else:
+        print("报错")
 
 
 def CheckFile(infile, outfile):
