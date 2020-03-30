@@ -1,12 +1,8 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-"""
-    支持的请求和最基本的数据
-"""
-
 import requests
 
+# 请求方式罗列
 r1 = requests.get('https://www.baidu.com/')
 r2 = requests.post('http://httpbin.org/post')
 r3 = requests.put('http://httpbin.org/put')
@@ -15,9 +11,9 @@ r5 = requests.head('http://httpbin.org/get')
 r6 = requests.options('http://httpbin.org/get')
 
 # 类型————————————————————————————————————
-print(type(r1))  # 类型
-print(type(r1.text))  # 返回 str 类型
-print(type(r2.json))  # 返回 method 类型
+print(type(r1))        # 类型
+print(type(r1.text))   # 返回 str 类型
+print(type(r2.json))   # 返回 method 类型
 
 # 打印数据并解决乱码问题————————————————————————————
 print(r1.text)  # 打印网页信息,可能会出现乱码,怎么办？

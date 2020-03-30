@@ -27,6 +27,8 @@ def Simplify_cmd(num):
         os.system("pip freeze > Simplify.txt")
     if num == 2:
         os.system("pip install -r requirements.txt")
+    if num ==3:  # 仅下载当前项目依赖性的包
+        os.system("pipreqs ./ --encoding=utf-8")
 
 
 if __name__ == '__main__':

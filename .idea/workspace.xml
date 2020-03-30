@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e43bd9f-5866-4bfa-b2fe-2b6fc58d2917" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/res/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/module_cf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Reptile_Yhz_Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Reptile_Yhz_Learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_doc/Learn1.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/Learn1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_doc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simplify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simplify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Learn1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_doc/Learn1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_doc/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/package/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/function_Yhz.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/package/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/headers_Yhz.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/package/headers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/font1.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/app/res/font1.TTF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_main/查看某页面.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/1查看某页面.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_cf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package/headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/headers_cf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/res/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/res/font1.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/1查看某页面.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/1查看某页面.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/批量抓取高清图片.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/批量抓取高清图片.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,19 +75,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/app/config" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/res" />
-      <recent name="$PROJECT_DIR$/docs" />
-      <recent name="$PROJECT_DIR$/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/package" />
       <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/app/config" />
+      <recent name="$PROJECT_DIR$/package" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.用Python进行诗歌接龙">
+  <component name="RunManager" selected="Python.request-html_1">
     <configuration name="网易云热门歌单" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Reptile_Yhz_Learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,28 +133,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1实例_爬取京东手机评论并保存" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Reptile_Yhz_Learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫实例" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫实例/1实例_爬取京东手机评论并保存.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="1实例_爬取今日头条街拍美图并保存" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Reptile_Yhz_Learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,6 +151,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="1实例_爬取猫眼电影西红柿首富评论" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Reptile_Yhz_Learn" />
@@ -256,15 +240,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="request-html_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Reptile_Yhz_Learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn_doc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn_doc/request-html_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1实例_爬取京东手机评论并保存" />
+      <item itemvalue="Python.1实例_爬取今日头条街拍美图并保存" />
       <item itemvalue="Python.1查看某页面" />
       <item itemvalue="Python.网易云热门歌单" />
       <item itemvalue="Python.CSS反爬加密彻底破解" />
       <item itemvalue="Python.用Python进行诗歌接龙" />
+      <item itemvalue="Python.request-html_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.request-html_1" />
         <item itemvalue="Python.用Python进行诗歌接龙" />
         <item itemvalue="Python.CSS反爬加密彻底破解" />
         <item itemvalue="Python.网易云热门歌单" />
@@ -286,7 +294,14 @@
       <workItem from="1582102942515" duration="39000" />
       <workItem from="1582884377110" duration="1198000" />
       <workItem from="1583390452151" duration="73000" />
-      <workItem from="1583983836812" duration="296000" />
+      <workItem from="1583983836812" duration="4637000" />
+      <workItem from="1584193817014" duration="24000" />
+      <workItem from="1584278050530" duration="961000" />
+      <workItem from="1584325116069" duration="632000" />
+      <workItem from="1584414766592" duration="389000" />
+      <workItem from="1584426632457" duration="308000" />
+      <workItem from="1584427044072" duration="52000" />
+      <workItem from="1585139136928" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1580631785638</created>
@@ -306,34 +321,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1109" height="253" key="GridCell.Tab.0.bottom" timestamp="1582078271409">
-      <screen x="0" y="23" width="1390" height="877" />
+    <state width="1109" height="253" key="GridCell.Tab.0.bottom" timestamp="1584002137539">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1109" height="253" key="GridCell.Tab.0.bottom/0.23.1388.877/-303.-1057.1920.1057@0.23.1388.877" timestamp="1582030751570" />
     <state width="1109" height="253" key="GridCell.Tab.0.bottom/0.23.1390.877/-303.-1057.1920.1057@0.23.1390.877" timestamp="1582078271409" />
     <state width="1109" height="253" key="GridCell.Tab.0.bottom/0.23.1392.877/-303.-1057.1920.1057@0.23.1392.877" timestamp="1581927356688" />
-    <state width="1109" height="253" key="GridCell.Tab.0.center" timestamp="1582078271406">
-      <screen x="0" y="23" width="1390" height="877" />
+    <state width="1109" height="253" key="GridCell.Tab.0.bottom/48.23.1392.877/-303.-1057.1920.1057@48.23.1392.877" timestamp="1583995718436" />
+    <state width="1109" height="253" key="GridCell.Tab.0.bottom/50.23.1390.877/-303.-1057.1920.1057@50.23.1390.877" timestamp="1584002137539" />
+    <state width="1109" height="253" key="GridCell.Tab.0.center" timestamp="1584002137538">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1109" height="253" key="GridCell.Tab.0.center/0.23.1388.877/-303.-1057.1920.1057@0.23.1388.877" timestamp="1582030751566" />
     <state width="1109" height="253" key="GridCell.Tab.0.center/0.23.1390.877/-303.-1057.1920.1057@0.23.1390.877" timestamp="1582078271406" />
     <state width="1109" height="253" key="GridCell.Tab.0.center/0.23.1392.877/-303.-1057.1920.1057@0.23.1392.877" timestamp="1581927356687" />
-    <state width="1109" height="253" key="GridCell.Tab.0.left" timestamp="1582078271394">
-      <screen x="0" y="23" width="1390" height="877" />
+    <state width="1109" height="253" key="GridCell.Tab.0.center/48.23.1392.877/-303.-1057.1920.1057@48.23.1392.877" timestamp="1583995718435" />
+    <state width="1109" height="253" key="GridCell.Tab.0.center/50.23.1390.877/-303.-1057.1920.1057@50.23.1390.877" timestamp="1584002137538" />
+    <state width="1109" height="253" key="GridCell.Tab.0.left" timestamp="1584002137537">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1109" height="253" key="GridCell.Tab.0.left/0.23.1388.877/-303.-1057.1920.1057@0.23.1388.877" timestamp="1582030751550" />
     <state width="1109" height="253" key="GridCell.Tab.0.left/0.23.1390.877/-303.-1057.1920.1057@0.23.1390.877" timestamp="1582078271394" />
     <state width="1109" height="253" key="GridCell.Tab.0.left/0.23.1392.877/-303.-1057.1920.1057@0.23.1392.877" timestamp="1581927356686" />
-    <state width="1109" height="253" key="GridCell.Tab.0.right" timestamp="1582078271407">
-      <screen x="0" y="23" width="1390" height="877" />
+    <state width="1109" height="253" key="GridCell.Tab.0.left/48.23.1392.877/-303.-1057.1920.1057@48.23.1392.877" timestamp="1583995718433" />
+    <state width="1109" height="253" key="GridCell.Tab.0.left/50.23.1390.877/-303.-1057.1920.1057@50.23.1390.877" timestamp="1584002137537" />
+    <state width="1109" height="253" key="GridCell.Tab.0.right" timestamp="1584002137538">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1109" height="253" key="GridCell.Tab.0.right/0.23.1388.877/-303.-1057.1920.1057@0.23.1388.877" timestamp="1582030751567" />
     <state width="1109" height="253" key="GridCell.Tab.0.right/0.23.1390.877/-303.-1057.1920.1057@0.23.1390.877" timestamp="1582078271407" />
     <state width="1109" height="253" key="GridCell.Tab.0.right/0.23.1392.877/-303.-1057.1920.1057@0.23.1392.877" timestamp="1581927356687" />
-    <state x="358" y="104" key="SettingsEditor" timestamp="1582022035307">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state width="1109" height="253" key="GridCell.Tab.0.right/48.23.1392.877/-303.-1057.1920.1057@48.23.1392.877" timestamp="1583995718436" />
+    <state width="1109" height="253" key="GridCell.Tab.0.right/50.23.1390.877/-303.-1057.1920.1057@50.23.1390.877" timestamp="1584002137538" />
+    <state x="407" y="104" key="SettingsEditor" timestamp="1583995458320">
+      <screen x="48" y="23" width="1392" height="877" />
     </state>
     <state x="358" y="104" key="SettingsEditor/0.23.1388.877/-303.-1057.1920.1057@0.23.1388.877" timestamp="1582022035307" />
+    <state x="407" y="104" key="SettingsEditor/48.23.1392.877/-303.-1057.1920.1057@48.23.1392.877" timestamp="1583995458320" />
     <state x="494" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1581925637873">
       <screen x="0" y="23" width="1393" height="877" />
     </state>
@@ -353,6 +377,7 @@
     <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$Python.coverage" NAME="用Python进行诗歌接龙 Coverage Results" MODIFIED="1582022090952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$function_Yhz.coverage" NAME="function_Yhz Coverage Results" MODIFIED="1581927184848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$__1_.coverage" NAME="查看某页面 (1) Coverage Results" MODIFIED="1581995221381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$request_html_1.coverage" NAME="request-html_1 Coverage Results" MODIFIED="1583995718415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn_doc" />
     <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$function_Yhz__1_.coverage" NAME="function_Yhz (1) Coverage Results" MODIFIED="1581939038157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/package" />
     <SUITE FILE_PATH="coverage/Reptile_Yhz_Learn$.coverage" NAME="批量抓取高清图片 Coverage Results" MODIFIED="1582011684501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>

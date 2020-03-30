@@ -11,7 +11,7 @@ basedirs = os.path.dirname(os.path.dirname(__file__))
 load_dotenv(os.path.join(basedirs, '.env'))
 
 
-class Config_s(object):
+class config(object):
     LOGS_PATH = os.path.dirname(os.path.dirname(__file__)) + '/logs'
     DATETAME_PATH = datetime.datetime.now().strftime('%Y%m%d-%H-%M-%S')
     FILE_PATH = LOGS_PATH + '/' + DATETAME_PATH
@@ -19,4 +19,4 @@ class Config_s(object):
 
 
 if __name__ == '__main__':
-    print(Config_s.LOGS_PATH)
+    print(config.LOGS_PATH)

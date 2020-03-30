@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 # Author: yanghuizhi
 # Time: 2020/2/1 4:18 PM
-
-
-from app.package.function import Post_Request,save_to_typt
-from app.package.headers import Headers
+from app.config.module_cf import save_to_typt
+from app.config.request_cf import Post_Request
+from app.config.headers_cf import Headers
 
 
 url="http://xiaohua.zol.com.cn/detail60/59427.html"

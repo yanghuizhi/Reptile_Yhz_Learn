@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 import random
 import time
 # from fake_useragent import UserAgent
-from app.package.headers import  Headers
-from app.package.function import save_to_typt
+from app.config.headers_cf import  Headers
+from app.config.module_cf import save_to_typt
 # 通过循环实现多页图片的抓取
 for page in range(1,11):
     # 生成顶层图片列表页的链接
